@@ -31,5 +31,24 @@ if c in collegecourse:
 else:
     print(f"{c} course is not available")
 
+#reverse the sorted List
+allcourse.sort(reverse=True)
+print(allcourse)
+
+#to reverse a List
+allcourse.reverse()
+print(allcourse)
+
+#to pop/delete the last element of List
+allcourse.pop()
+print(allcourse)
+
+#append to add element at the end of List
+allcourse.append("MCA")
+print(allcourse)
+
+#to count how much time a paticular element in a List
+print(allcourse.count("MCA"))
+
 #del is used for delete List
 del allcourse
