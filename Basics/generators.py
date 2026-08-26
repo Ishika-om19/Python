@@ -1,4 +1,5 @@
 #Using Generators Calculate the following series:-
+#when we use yield in program to it convert into Generator where yield used as return 
 #1+4+9+16+25+36
 
 def series():
