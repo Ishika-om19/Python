@@ -10,7 +10,7 @@ def remove_selected():
         
 root= tk.Tk()
 root.title("Example of TreeView")
-root.geometry("1400x1200")
+root.geometry("400x200")
 tree=ttk.Treeview(root)
 tree.pack()
 master_item=tree.insert(parent="",index="end",id="master_item",text="Master item")
