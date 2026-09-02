@@ -14,7 +14,7 @@ mylist.insert(2,"Blue")
 mylist.insert(3,"Yellow")
 mylist.insert(4,"Magenta")
 mylist.insert(5,"Purple")
-mylist.delete(0)#deletion using zero based indexing 
+mylist.delete(0)#deletion using one before 
 mylist.bind("<<ListboxSelect>>",show_selected)
 mylist.pack()
 mywin.mainloop()
